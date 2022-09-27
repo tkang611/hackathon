@@ -1,13 +1,6 @@
- /* 
-  sprite on top of page
-  iframe identifier
-  
-  */
+// let sprite = '/images/sprite.gif';
 
-
-  let color = '#3aa757';
-
-chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set({ color });
-  console.log('Default background color set to %cgreen', `color: ${color}`);
-});
+// chrome.runtime.onInstalled.addListener(() => {
+//   chrome.storage.sync.set({ sprite });
+//   console.log(`Default sprite set to ${sprite}`, `sprite: ${sprite}`);
+// });

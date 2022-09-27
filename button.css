@@ -1,12 +1,82 @@
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+#button-div {
+  display: flexbox;
+  text-align: center;
+}
+
+#changeDog {
+  background-color: rgb(206, 160, 75);
+  box-shadow: 1px 1px 5px 2px rgba(204, 151, 52, 0.205);
+}
+
+#changeDog:hover {
+  background-color: rgb(177, 138, 67);
+  color: white;
+}
+
+#changeCat {
+  background-color: rgb(65, 65, 65);
+  color: white;
+  box-shadow: 1px 1px 5px 2px rgba(44, 44, 44, 0.205);
+}
+
+#changeCat:hover {
+  background-color: rgb(146, 146, 146);
+  color:black;
+
+}
+
+#changeSlime {
+  background-color: rgb(107, 243, 53);
+  box-shadow: 1px 1px 5px 2px rgba(96, 238, 39, 0.205);
+}
+
+#changeSlime:hover {
+  background-color: rgb(81, 184, 40);
+  color: white;
+}
+
+#deleteSprite {
+  background-color: rgb(248, 66, 66);
+  box-shadow: 1px 1px 5px 2px rgba(252, 59, 59, 0.205);
+  color: white;
+  margin-top: 10px;
+}
+
+#deleteSprite:hover {
+  background-color: rgb(221, 33, 33);
+
+}
+
+#mysterySprite {
+  background-color: rgb(255, 113, 201);
+  box-shadow: 1px 1px 5px 2px rgba(252, 103, 195, 0.205);
+  color: white;
+}
+
+#mysterySprite:hover {
+  background-color: rgb(226, 79, 170);
+}
+
 button {
-    height: 30px;
-    width: 30px;
-    outline: none;
-    margin: 10px;
-    border: none;
-    border-radius: 2px;
+  width: 70%;
+  vertical-align: middle;
+  outline: none;
+  margin: 5px;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
   }
   
+#sprite-image {
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+}
+
   button.current {
     box-shadow: 0 0 0 2px white,
                 0 0 0 4px black;
